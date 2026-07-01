@@ -1,0 +1,34 @@
+# TWD-Economy configuration
+
+# Limites du shop personnel
+shop:
+  max-listings-per-player: 10   # max annonces actives par joueur
+  max-stock-per-listing: 1024   # max items par annonce
+
+# Frais de transaction (% prélevé lors d'un achat, va au néant)
+transaction-tax-percent: 5
+
+# Troc direct
+trade:
+  timeout-seconds: 120   # annulation auto si inactif X secondes
+
+# Messages
+messages:
+  prefix: "&8[&6₩&8] &r"
+  no-permission: "&cVous n'avez pas la permission."
+  player-not-found: "&cJoueur introuvable : &e%name%"
+  invalid-amount: "&cMontant invalide."
+  not-enough-money: "&cSolde insuffisant. Vous avez &e%balance%₩&c."
+  not-enough-items: "&cVous n'avez pas assez de cet item."
+  pay-sent: "&aVous avez envoyé &e%amount%₩ &aà &e%player%&a."
+  pay-received: "&e%player% &avous a envoyé &e%amount%₩&a."
+  shop-listing-created: "&aAnnonce créée : &e%item% &ax%qty% &apour &e%price%₩&a/unité."
+  shop-listing-removed: "&aAnnonce supprimée. Items rendus dans votre inventaire."
+  shop-buy-success: "&aAchat : &ex%qty% %item% &apour &e%total%₩&a."
+  shop-sell-success: "&eVente réussie &a(+&e%amount%₩&a)."
+  trade-request-sent: "&aDemande de troc envoyée à &e%player%&a."
+  trade-request-received: "&e%player% &avous propose un troc ! &b/trade accept %player%"
+  trade-accepted: "&aTroc ouvert avec &e%player%&a."
+  trade-cancelled: "&cTroc annulé."
+  trade-completed: "&a&lTroc conclu avec succès !"
+  no-kingdom: "&cVous n'appartenez à aucun royaume."

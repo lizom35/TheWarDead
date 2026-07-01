@@ -1,0 +1,11 @@
+name: TWD-Progression
+version: 1.0.0
+main: fr.thewardead.progression.ProgressionPlugin
+api-version: 1.20
+softdepend: [TWD-Kingdoms, TWD-Economy]
+
+commands:
+  class:
+    description: Commandes de métier (Fermier / Militaire)
+    usage: /class [info|top|choose|xp]
+    aliases: [metier, job]

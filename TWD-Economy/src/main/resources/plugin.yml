@@ -1,0 +1,35 @@
+name: TWD-Economy
+version: 1.0.0
+main: fr.thewardead.economy.EconomyPlugin
+api-version: 1.20
+authors: [TheWarDead]
+description: Économie Wars (₩), shops, marché et troc pour TheWarDead
+depend: [TWD-Kingdoms]
+
+commands:
+  balance:
+    description: Affiche votre solde Wars
+    aliases: [bal, money, solde]
+    usage: /balance [joueur]
+  pay:
+    description: Envoyer des Wars à un joueur
+    usage: /pay <joueur> <montant>
+  baltop:
+    description: Classement des joueurs les plus riches
+    usage: /baltop
+  shop:
+    description: Marché personnel — vendre et acheter
+    aliases: [market, boutique]
+    usage: /shop [sell <prix>|manage|help]
+  roshop:
+    description: Shop du royaume
+    aliases: [royaumeshop, rs]
+    usage: /roshop
+  romarket:
+    description: Marché des armes et items de mods
+    aliases: [weapons, armurerie]
+    usage: /romarket
+  trade:
+    description: Troc direct avec un autre joueur
+    aliases: [echange, troc]
+    usage: /trade <joueur>

@@ -1,0 +1,297 @@
+# Marché Admin — Catalogue Ballistix
+# Commande d'import : /romarket seed  (op uniquement)
+# Chaque entrée : id (Forge registry), name (affichage), price (en ₩)
+# Pour re-importer après modif : /romarket seed reset
+
+seeds:
+
+  # ── Munitions ──────────────────────────────────────────────────────────────
+  - {id: "ballistix:bullet",                name: "&cMunition 20mm",                  price: 15}
+
+  # ── Missiles ───────────────────────────────────────────────────────────────
+  - {id: "ballistix:missiletier1",          name: "&eMissile &7Tier I",               price: 400}
+  - {id: "ballistix:missiletier2",          name: "&eMissile &6Tier II",              price: 1200}
+  - {id: "ballistix:missiletier3",          name: "&eMissile &cTier III",             price: 3500}
+  - {id: "ballistix:missilecluster",        name: "&eMissile à Sous-Munitions",       price: 2000}
+  - {id: "ballistix:missileclustershard",   name: "&eTête Sous-Munitions",            price: 600}
+  - {id: "ballistix:aamissile",             name: "&eMissile Sol-Air",                price: 800}
+  - {id: "ballistix:aamissilemk2",          name: "&eMissile Anti-Balistique",        price: 2500}
+
+  # ── Grenades ───────────────────────────────────────────────────────────────
+  - {id: "ballistix:grenadeanvil",          name: "&aGrenade Enclume",                price: 120}
+  - {id: "ballistix:grenadeattractive",     name: "&aGrenade Magnétique",             price: 90}
+  - {id: "ballistix:grenadechemical",       name: "&aGrenade Chimique",               price: 250}
+  - {id: "ballistix:grenadecondensive",     name: "&aGrenade Condensante",            price: 180}
+  - {id: "ballistix:grenadedebilitation",   name: "&aGrenade Débilitante",            price: 200}
+  - {id: "ballistix:grenadeincendiary",     name: "&aGrenade Incendiaire",            price: 110}
+  - {id: "ballistix:grenadeinfestive",      name: "&aGrenade Infestante",             price: 280}
+  - {id: "ballistix:grenaderepulsive",      name: "&aGrenade Répulsive",              price: 100}
+  - {id: "ballistix:grenadeshrapnel",       name: "&aGrenade à Éclats",               price: 140}
+
+  # ── Équipement ─────────────────────────────────────────────────────────────
+  - {id: "ballistix:rocketlauncher",        name: "&bLance-Roquettes",               price: 2500}
+  - {id: "ballistix:laserdesignator",       name: "&bDésignateur Laser",             price: 900}
+  - {id: "ballistix:defuser",               name: "&bDésamorceur",                   price: 600}
+  - {id: "ballistix:radargun",              name: "&bPistolet Radar",                price: 500}
+  - {id: "ballistix:scanner",               name: "&bBrouilleur",                    price: 750}
+  - {id: "ballistix:tracker",               name: "&bTraceur",                       price: 450}
+  - {id: "ballistix:dustpoison",            name: "&bPoudre Toxique",                price: 200}
+
+  # ── Explosifs (blocs) ──────────────────────────────────────────────────────
+  - {id: "ballistix:antigravity",           name: "&6Explosif Anti-Gravité",          price: 900}
+  - {id: "ballistix:attractive",            name: "&6Explosif Magnétique",            price: 450}
+  - {id: "ballistix:repulsive",             name: "&6Explosif Répulsif",              price: 450}
+  - {id: "ballistix:shrapnel",              name: "&6Explosif à Éclats",              price: 500}
+  - {id: "ballistix:fragmentation",         name: "&6Explosif à Fragmentation",       price: 650}
+  - {id: "ballistix:incendiary",            name: "&6Explosif Incendiaire",           price: 550}
+  - {id: "ballistix:condensive",            name: "&6Explosif Condensant",            price: 650}
+  - {id: "ballistix:breaching",             name: "&6Explosif de Brèche",             price: 550}
+  - {id: "ballistix:anvil",                 name: "&6Explosif Enclume",               price: 350}
+  - {id: "ballistix:sonic",                 name: "&6Explosif Sonique",               price: 750}
+  - {id: "ballistix:chemical",              name: "&cExplosif Chimique",              price: 900}
+  - {id: "ballistix:debilitation",          name: "&cExplosif Débilitant",            price: 750}
+  - {id: "ballistix:contagious",            name: "&cExplosif Contagieux",            price: 800}
+  - {id: "ballistix:infestive",             name: "&cExplosif Infestant",             price: 850}
+  - {id: "ballistix:endothermic",           name: "&cExplosif Endothermique",         price: 950}
+  - {id: "ballistix:exothermic",            name: "&cExplosif Exothermique",          price: 950}
+  - {id: "ballistix:emp",                   name: "&cExplosif EMP",                   price: 1300}
+  - {id: "ballistix:ender",                 name: "&cExplosif de l'End",              price: 1600}
+  - {id: "ballistix:rejuvination",          name: "&cExplosif Régénérateur",          price: 1100}
+  - {id: "ballistix:thermobaric",           name: "&4Explosif Thermobarique",         price: 1600}
+  - {id: "ballistix:hypersonic",            name: "&4Explosif Hypersonique",          price: 3200}
+  - {id: "ballistix:obsidian",              name: "&4TNT Obsidienne",                 price: 2200}
+  - {id: "ballistix:antimatter",            name: "&4Explosif Antimatière",           price: 5000}
+  - {id: "ballistix:largeantimatter",       name: "&4Explosif Antimatière (Lourd)",   price: 12000}
+  - {id: "ballistix:nuclear",               name: "&4§lExplosif Nucléaire",           price: 18000}
+  - {id: "ballistix:darkmatter",            name: "&5§lExplosif Matière Noire",       price: 8000}
+
+  # ── Tourelles & Défense ────────────────────────────────────────────────────
+  - {id: "ballistix:proximitydetector",     name: "&dDétecteur de Proximité",         price: 550}
+  - {id: "ballistix:radar",                 name: "&dRadar de Surveillance",          price: 1600}
+  - {id: "ballistix:esmtower",              name: "&dTour ESM",                       price: 2200}
+  - {id: "ballistix:firecontrolradar",      name: "&dRadar de Contrôle de Feu",       price: 3200}
+  - {id: "ballistix:samturret",             name: "&dTourelle SAM",                   price: 3800}
+  - {id: "ballistix:ciwsturret",            name: "&dTourelle CIWS",                  price: 5500}
+  - {id: "ballistix:laserturret",           name: "&dTourelle Laser",                 price: 4500}
+  - {id: "ballistix:railgunturret",         name: "&dTourelle Railgun",               price: 7000}
+
+  # ── Systèmes de lancement ──────────────────────────────────────────────────
+  - {id: "ballistix:launchersupportframetier1", name: "&eChâssis de Support T1",     price: 900}
+  - {id: "ballistix:launchersupportframetier2", name: "&eChâssis de Support T2",     price: 2200}
+  - {id: "ballistix:launchersupportframetier3", name: "&eChâssis de Support T3",     price: 4500}
+  - {id: "ballistix:launcherplatformtier1", name: "&ePlateforme de Lancement T1",    price: 1600}
+  - {id: "ballistix:launcherplatformtier2", name: "&ePlateforme de Lancement T2",    price: 4500}
+  - {id: "ballistix:launcherplatformtier3", name: "&ePlateforme de Lancement T3",    price: 9000}
+  - {id: "ballistix:launchercontrolpaneltier1", name: "&ePanneau de Contrôle T1",    price: 2000}
+  - {id: "ballistix:launchercontrolpaneltier2", name: "&ePanneau de Contrôle T2",    price: 5500}
+  - {id: "ballistix:launchercontrolpaneltier3", name: "&ePanneau de Contrôle T3",    price: 11000}
+  - {id: "ballistix:vls",                   name: "&eSilo de Lancement Vertical",     price: 9000}
+
+  # ── Autres ─────────────────────────────────────────────────────────────────
+  - {id: "ballistix:airraidsiren",          name: "&7Sirène d'Alerte Aérienne",       price: 320}
+  - {id: "ballistix:landmine",              name: "&7Mine Terrestre",                 price: 280}
+
+  # ── Minecarts Explosifs ────────────────────────────────────────────────────
+  - {id: "ballistix:minecartanvil",         name: "&6Wagonnet Enclume",               price: 400}
+  - {id: "ballistix:minecartattractive",    name: "&6Wagonnet Magnétique",            price: 550}
+  - {id: "ballistix:minecartrepulsive",     name: "&6Wagonnet Répulsif",              price: 550}
+  - {id: "ballistix:minecartshrapnel",      name: "&6Wagonnet à Éclats",              price: 600}
+  - {id: "ballistix:minecartfragmentation", name: "&6Wagonnet à Fragmentation",       price: 750}
+  - {id: "ballistix:minecartincendiary",    name: "&6Wagonnet Incendiaire",           price: 650}
+  - {id: "ballistix:minecartbreaching",     name: "&6Wagonnet de Brèche",             price: 650}
+  - {id: "ballistix:minecartcondensive",    name: "&6Wagonnet Condensant",            price: 750}
+  - {id: "ballistix:minecartsonic",         name: "&6Wagonnet Sonique",               price: 850}
+  - {id: "ballistix:minecartantigravity",   name: "&6Wagonnet Anti-Gravité",          price: 1000}
+  - {id: "ballistix:minecartchemical",      name: "&cWagonnet Chimique",              price: 1000}
+  - {id: "ballistix:minecartdebilitation",  name: "&cWagonnet Débilitant",            price: 850}
+  - {id: "ballistix:minecartcontagious",    name: "&cWagonnet Contagieux",            price: 900}
+  - {id: "ballistix:minecartinfestive",     name: "&cWagonnet Infestant",             price: 950}
+  - {id: "ballistix:minecartendothermic",   name: "&cWagonnet Endothermique",         price: 1050}
+  - {id: "ballistix:minecartexothermic",    name: "&cWagonnet Exothermique",          price: 1050}
+  - {id: "ballistix:minecartemp",           name: "&cWagonnet EMP",                   price: 1400}
+  - {id: "ballistix:minecartender",         name: "&cWagonnet de l'End",              price: 1700}
+  - {id: "ballistix:minecartrejuvination",  name: "&cWagonnet Régénérateur",          price: 1200}
+  - {id: "ballistix:minecartthermobaric",   name: "&4Wagonnet Thermobarique",         price: 1700}
+  - {id: "ballistix:minecarthypersonic",    name: "&4Wagonnet Hypersonique",          price: 3400}
+  - {id: "ballistix:minecartobsidian",      name: "&4Wagonnet TNT Obsidienne",        price: 2400}
+  - {id: "ballistix:minecartantimatter",    name: "&4Wagonnet Antimatière",           price: 5500}
+  - {id: "ballistix:minecartlargeantimatter", name: "&4Wagonnet Antimatière (Lourd)", price: 12500}
+  - {id: "ballistix:minecartnuclear",       name: "&4§lWagonnet Nucléaire",           price: 19000}
+  - {id: "ballistix:minecartdarkmatter",    name: "&5§lWagonnet Matière Noire",       price: 8500}
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PointBlank — Armes à feu
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  # ── Munitions & Roquettes (10₩) ────────────────────────────────────────────
+  - {id: "pointblank:ammo9mm",              name: "&f9mm",                            price: 10}
+  - {id: "pointblank:ammo45acp",            name: "&f.45 ACP",                        price: 10}
+  - {id: "pointblank:ammo57",               name: "&f5.7mm",                          price: 10}
+  - {id: "pointblank:ammo50ae",             name: "&f.50 AE",                         price: 10}
+  - {id: "pointblank:ammo357",              name: "&f.357",                           price: 10}
+  - {id: "pointblank:ammo46",               name: "&f4.6mm",                          price: 10}
+  - {id: "pointblank:ammo545",              name: "&f5.45mm",                         price: 10}
+  - {id: "pointblank:ammo556",              name: "&f5.56mm",                         price: 10}
+  - {id: "pointblank:ammo68",               name: "&f6.8mm",                          price: 10}
+  - {id: "pointblank:ammo762",              name: "&f7.62mm",                         price: 10}
+  - {id: "pointblank:ammo762x51",           name: "&f7.62x51mm",                      price: 10}
+  - {id: "pointblank:ammo338lapua",         name: "&f.338 Lapua",                     price: 10}
+  - {id: "pointblank:ammo50bmg",            name: "&f.50 BMG",                        price: 10}
+  - {id: "pointblank:ammo12gauge",          name: "&fCalibre 12",                     price: 10}
+  - {id: "pointblank:ammolasercharge",      name: "&bCharge Laser",                   price: 10}
+  - {id: "pointblank:grenade40mm",          name: "&aGrenade 40mm",                   price: 10}
+  - {id: "pointblank:grenade20mm",          name: "&aGrenade 20mm",                   price: 10}
+  - {id: "pointblank:at4_rocket",           name: "&cRoquette AT4",                   price: 10}
+  - {id: "pointblank:smaw_rocket",          name: "&cRoquette Mk-153 SMAW HE",        price: 10}
+  - {id: "pointblank:javelin_rocket",       name: "&cMissile FGM-148 Javelin",        price: 10}
+
+  # ── Matériaux de fabrication ────────────────────────────────────────────────
+  - {id: "pointblank:gunmetal_nugget",      name: "&7Pépite de Métal d'Armes",        price: 8}
+  - {id: "pointblank:gunmetal_mesh",        name: "&7Maille de Métal d'Armes",        price: 25}
+  - {id: "pointblank:gunmetal_ingot",       name: "&7Lingot de Métal d'Armes",        price: 50}
+  - {id: "pointblank:guninternals",         name: "&7Composants Internes d'Armes",    price: 200}
+  - {id: "pointblank:motor",                name: "&7Moteur de Minigun",              price: 500}
+  - {id: "pointblank:processor",            name: "&7Processeur KamiCat",             price: 300}
+
+  # ── Blocs artisanat ─────────────────────────────────────────────────────────
+  - {id: "pointblank:printer",              name: "&6Imprimante d'Armes",             price: 1500}
+  - {id: "pointblank:workstation",          name: "&6Poste de Travail Marchand",      price: 1200}
+
+  # ── Pistolets ───────────────────────────────────────────────────────────────
+  - {id: "pointblank:glock17",              name: "&eGlock-17",                       price: 500}
+  - {id: "pointblank:glock18",              name: "&eGlock-18",                       price: 700}
+  - {id: "pointblank:m1911a1",              name: "&eM1911A1",                        price: 500}
+  - {id: "pointblank:tti_viper",            name: "&eTTI Viper",                      price: 800}
+  - {id: "pointblank:p30l",                 name: "&eP30L",                           price: 600}
+  - {id: "pointblank:mk23",                 name: "&eMk23",                           price: 600}
+  - {id: "pointblank:m9",                   name: "&eM9",                             price: 500}
+  - {id: "pointblank:deserteagle",          name: "&eDesert Eagle",                   price: 900}
+  - {id: "pointblank:rhino",                name: "&eRhino",                          price: 700}
+  - {id: "pointblank:m950",                 name: "&eM950",                           price: 600}
+
+  # ── SMG ─────────────────────────────────────────────────────────────────────
+  - {id: "pointblank:mp5",                  name: "&eMP5",                            price: 900}
+  - {id: "pointblank:mp7",                  name: "&eMP7",                            price: 1000}
+  - {id: "pointblank:ump45",                name: "&eUMP-45 Tactique",                price: 900}
+  - {id: "pointblank:vector",               name: "&eVector",                         price: 1100}
+  - {id: "pointblank:p90",                  name: "&eP90",                            price: 1000}
+  - {id: "pointblank:ro635",                name: "&eRO635",                          price: 1000}
+  - {id: "pointblank:tmp",                  name: "&eTMP",                            price: 700}
+
+  # ── Fusils d'assaut ─────────────────────────────────────────────────────────
+  - {id: "pointblank:ak47",                 name: "&6AK-47",                          price: 1200}
+  - {id: "pointblank:ak74",                 name: "&6AK-74",                          price: 1400}
+  - {id: "pointblank:ak12",                 name: "&6AK-12",                          price: 1800}
+  - {id: "pointblank:an94",                 name: "&6AN-94",                          price: 2000}
+  - {id: "pointblank:m16a1",                name: "&6M16A1",                          price: 1200}
+  - {id: "pointblank:m4a1",                 name: "&6M4A1",                           price: 1500}
+  - {id: "pointblank:m4a1mod1",             name: "&6M4A1 MOD I",                     price: 1800}
+  - {id: "pointblank:m4sopmodii",           name: "&6M4 SOPMOD II",                   price: 2000}
+  - {id: "pointblank:star15",               name: "&6ST AR-15",                       price: 1400}
+  - {id: "pointblank:hk416",                name: "&6HK416",                          price: 1800}
+  - {id: "pointblank:scarl",                name: "&6Scar-L Tactique",                price: 1800}
+  - {id: "pointblank:xm7",                  name: "&6XM7",                            price: 2000}
+  - {id: "pointblank:g36c",                 name: "&6G36C",                           price: 1400}
+  - {id: "pointblank:g36k",                 name: "&6G36K",                           price: 1500}
+  - {id: "pointblank:aug",                  name: "&6AUG",                            price: 1600}
+  - {id: "pointblank:g41",                  name: "&6G41",                            price: 1600}
+  - {id: "pointblank:ar57",                 name: "&6AR-57",                          price: 1400}
+  - {id: "pointblank:sl8",                  name: "&6SL8",                            price: 1300}
+  - {id: "pointblank:uar10",                name: "&6UAR-10",                         price: 1600}
+  - {id: "pointblank:xm29",                 name: "&6§lXM29",                         price: 2500}
+
+  # ── Fusils de bataille ──────────────────────────────────────────────────────
+  - {id: "pointblank:g3",                   name: "&6G3",                             price: 1500}
+  - {id: "pointblank:mk14ebr",              name: "&6Mk14 EBR",                       price: 1800}
+
+  # ── Fusils de précision (sniper) ────────────────────────────────────────────
+  - {id: "pointblank:wa2000",               name: "&cWA2000",                         price: 2500}
+  - {id: "pointblank:xm3",                  name: "&cXM3",                            price: 2000}
+  - {id: "pointblank:c14",                  name: "&cC14",                            price: 2500}
+  - {id: "pointblank:l96a1",                name: "&cL96A1",                          price: 3000}
+  - {id: "pointblank:ballista",             name: "&cBallista",                       price: 3500}
+  - {id: "pointblank:gm6lynx",              name: "&c§lGM6 Lynx",                     price: 4000}
+
+  # ── Fusils à pompe ──────────────────────────────────────────────────────────
+  - {id: "pointblank:m590",                 name: "&eM590",                           price: 1000}
+  - {id: "pointblank:m870",                 name: "&eM870",                           price: 1000}
+  - {id: "pointblank:spas12",               name: "&eSPAS-12",                        price: 1300}
+  - {id: "pointblank:m1014",                name: "&eM1014",                          price: 1400}
+  - {id: "pointblank:citoricxs",            name: "&eCitori CXS",                     price: 1500}
+  - {id: "pointblank:hs12",                 name: "&eHS-12",                          price: 1800}
+  - {id: "pointblank:aa12",                 name: "&eAA12",                           price: 2000}
+
+  # ── Mitrailleuses lourdes ───────────────────────────────────────────────────
+  - {id: "pointblank:aughbar",              name: "&4AUG HBAR",                       price: 2500}
+  - {id: "pointblank:lamg",                 name: "&4LAMG",                           price: 2800}
+  - {id: "pointblank:m249",                 name: "&4M249",                           price: 2800}
+  - {id: "pointblank:mk48",                 name: "&4Mk48",                           price: 3000}
+  - {id: "pointblank:m134minigun",          name: "&4§lM134 Minigun",                 price: 5000}
+
+  # ── Lance-roquettes / Lance-grenades ────────────────────────────────────────
+  - {id: "pointblank:at4",                  name: "&cAT4",                            price: 3500}
+  - {id: "pointblank:smaw",                 name: "&cMk-153 SMAW",                    price: 3000}
+  - {id: "pointblank:m32mgl",               name: "&cMilkor MGL",                     price: 3500}
+  - {id: "pointblank:javelin",              name: "&c§lFGM-148 Javelin",              price: 5000}
+
+  # ── Viseurs de combat ───────────────────────────────────────────────────────
+  - {id: "pointblank:moa",                  name: "&bViseur MOA",                     price: 250}
+  - {id: "pointblank:moa_hg",               name: "&bViseur HG MOA",                  price: 280}
+  - {id: "pointblank:delta",                name: "&bViseur Delta",                   price: 250}
+  - {id: "pointblank:operatorreflex",       name: "&bViseur Reflex Operator",         price: 280}
+  - {id: "pointblank:srs",                  name: "&bViseur SRS",                     price: 300}
+  - {id: "pointblank:rspec",                name: "&bViseur R-Spec",                  price: 350}
+  - {id: "pointblank:holographic",          name: "&bViseur Holographique",           price: 350}
+  - {id: "pointblank:holographic558",       name: "&bViseur Holographique (558)",     price: 350}
+  - {id: "pointblank:holographic_em",       name: "&bViseur Holographique (EM)",      price: 380}
+  - {id: "pointblank:aimpoint",             name: "&bViseur Aimpoint",                price: 300}
+  - {id: "pointblank:aimpoint_t2",          name: "&bViseur Aimpoint T2",             price: 380}
+
+  # ── Lunettes longue portée ──────────────────────────────────────────────────
+  - {id: "pointblank:acog",                 name: "&bLunette ACOG",                   price: 500}
+  - {id: "pointblank:specter",              name: "&bLunette Specter",                price: 450}
+  - {id: "pointblank:hamr",                 name: "&bLunette HAMR",                   price: 500}
+  - {id: "pointblank:hi_red",               name: "&bLunette HI-RED",                 price: 550}
+  - {id: "pointblank:hi_red_zoom",          name: "&bModule Zoom HI-RED",             price: 250}
+  - {id: "pointblank:eaglescope",           name: "&bLunette Eagle",                  price: 600}
+  - {id: "pointblank:hawk_scope",           name: "&bLunette Hawk",                   price: 600}
+  - {id: "pointblank:wolf_scope",           name: "&bLunette Wolf",                   price: 650}
+  - {id: "pointblank:drake_scope",          name: "&bLunette Drake",                  price: 700}
+  - {id: "pointblank:precision_scope",      name: "&bLunette de Précision",           price: 800}
+  - {id: "pointblank:spear",                name: "&bLunette Spear",                  price: 700}
+  - {id: "pointblank:spearblack",           name: "&bLunette Spear (Noire)",          price: 700}
+
+  # ── Silencieux & Freins de bouche ───────────────────────────────────────────
+  - {id: "pointblank:ar_suppressor",        name: "&7Silencieux AR",                  price: 400}
+  - {id: "pointblank:ar_suppressor_tan",    name: "&7Silencieux AR (Tan)",            price: 400}
+  - {id: "pointblank:xm7_suppressor",       name: "&7Silencieux XM7",                 price: 450}
+  - {id: "pointblank:ak_suppressor",        name: "&7Silencieux AK-47",               price: 400}
+  - {id: "pointblank:smg_suppressor",       name: "&7Silencieux SMG",                 price: 350}
+  - {id: "pointblank:scarl_iss",            name: "&7Suppresseur Intégral Scar-L",    price: 500}
+  - {id: "pointblank:rf_suppressor",        name: "&7Silencieux RF",                  price: 450}
+  - {id: "pointblank:hp_suppressor",        name: "&7Silencieux HP",                  price: 450}
+  - {id: "pointblank:sg_suppressor",        name: "&7Silencieux SG",                  price: 350}
+  - {id: "pointblank:ar_muzzlebrake",       name: "&7Frein de Bouche AR",             price: 350}
+  - {id: "pointblank:smg_muzzlebrake",      name: "&7Frein de Bouche SMG",            price: 300}
+
+  # ── Poignées & Rails ────────────────────────────────────────────────────────
+  - {id: "pointblank:foregrip",             name: "&7Poignée Avant",                  price: 250}
+  - {id: "pointblank:foregrip_tan",         name: "&7Poignée Avant (Tan)",            price: 250}
+  - {id: "pointblank:shortgrip",            name: "&7Poignée Courte",                 price: 200}
+  - {id: "pointblank:stubbygriptan",        name: "&7Poignée Stubby (Tan)",           price: 220}
+  - {id: "pointblank:ak_romgrip",           name: "&7Poignée Roumaine AK-47",         price: 220}
+  - {id: "pointblank:heragrip",             name: "&7Poignée Hera",                   price: 280}
+  - {id: "pointblank:cantedrail",           name: "&7Rail Incliné",                   price: 200}
+
+  # ── Crosses & Kits ──────────────────────────────────────────────────────────
+  - {id: "pointblank:m9_stock",             name: "&7Crosse M9",                      price: 200}
+  - {id: "pointblank:glockstock",           name: "&7Crosse Glock",                   price: 200}
+  - {id: "pointblank:m16a3kit",             name: "&7Kit M16A3",                      price: 300}
+  - {id: "pointblank:star15mod3receiver",   name: "&7Receveur ST AR-15 MOD3",         price: 350}
+
+  # ── Sous-canons ─────────────────────────────────────────────────────────────
+  - {id: "pointblank:m203launcher",         name: "&eLance-grenades M203",            price: 800}
+  - {id: "pointblank:gp25",                 name: "&eLance-grenades GP-25",           price: 800}
+  - {id: "pointblank:fn40",                 name: "&eLance-grenades FN-40",           price: 850}
+  - {id: "pointblank:ulg99cannon",          name: "&eFusil Laser Sous-Canon ULG-99",  price: 600}
+  - {id: "pointblank:m870modshotgun",       name: "&eFusil à Pompe Sous-Canon M870",  price: 700}

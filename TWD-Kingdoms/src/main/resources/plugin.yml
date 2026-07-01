@@ -1,0 +1,16 @@
+name: TWD-Kingdoms
+version: 1.0.0
+main: fr.thewardead.kingdoms.KingdomPlugin
+api-version: 1.20
+authors: [TheWarDead]
+description: Système de royaumes pour TheWarDead
+
+commands:
+  kingdom:
+    description: Gestion des royaumes
+    aliases: [k, ro]
+    usage: /kingdom <create|join|leave|invite|kick|setrank|sethome|info|list|bank|setfee|settax|upgrade|claim|territory>
+  menu:
+    description: Ouvre le menu joueur (profil, royaume)
+    aliases: [kmenu, profil]
+    usage: /menu

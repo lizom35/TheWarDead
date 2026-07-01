@@ -1,0 +1,53 @@
+# TWD-Kingdoms configuration
+
+# Nombre maximum de royaumes actifs au départ
+max-kingdoms: 3
+# Un nouveau royaume est autorisé si la moyenne de membres par royaume dépasse ce seuil
+kingdom-full-threshold: 10
+# Nombre minimum de membres pour fonder un royaume
+min-members-to-create: 2
+
+# Income passif (en Wars ₩) versé à la banque du royaume toutes les X minutes
+income-interval-minutes: 60
+income:
+  HAMEAU: 50
+  VILLAGE: 150
+  CITE: 350
+  ROYAUME: 600
+  EMPIRE: 1000
+
+# Territoire : attribution automatique à la création d'un royaume
+territory:
+  min-distance: 2000   # distance minimale du spawn (blocs)
+  max-distance: 10000  # distance maximale du spawn (blocs)
+  max-search-attempts: 150
+
+# Niveaux de royaume — critères et coûts (modifiable ici pour les admins)
+# Ces valeurs sont indicatives ; la logique est dans KingdomLevel.java
+# HAMEAU  : départ (10 chunks)
+# VILLAGE : 3 membres + 200₩ banque, coût 500₩  → 20 chunks
+# CITE    : 6 membres + 1000₩ banque, coût 2000₩ → 30 chunks
+# ROYAUME : 12 membres + 3000₩ banque, coût 5000₩ → 40 chunks
+# EMPIRE  : 20 membres + 10000₩ banque, coût 15000₩ → 50 chunks
+
+# Messages
+messages:
+  prefix: "&8[&cTWD&8] &r"
+  kingdom-created: "&aRoyaume &e%name% &acréé avec succès !"
+  territory-found: "&7Un territoire de &e10 chunks &7a été automatiquement attribué. Faites &b/kingdom home &7pour vous y téléporter."
+  territory-not-found: "&cImpossible de trouver un territoire valide. Réessayez dans quelques instants."
+  kingdom-joined: "&aVous avez rejoint le royaume &e%name% &a!"
+  kingdom-left: "&cVous avez quitté le royaume &e%name% &c."
+  not-in-kingdom: "&cVous n'appartenez à aucun royaume."
+  already-in-kingdom: "&cVous êtes déjà dans un royaume."
+  kingdom-not-found: "&cRoyaume introuvable : &e%name%"
+  no-permission: "&cVous n'avez pas la permission d'effectuer cette action."
+  max-kingdoms: "&cLe nombre maximum de royaumes est atteint."
+  player-not-found: "&cJoueur introuvable : &e%name%"
+  invite-sent: "&aInvitation envoyée à &e%player% &a!"
+  invite-received: "&e%player% &avous invite à rejoindre &e%kingdom% &a! Tapez &b/kingdom accept %kingdom% &apour accepter."
+  kicked: "&cVous avez été expulsé du royaume &e%name% &c."
+  home-set: "&aPoint de retour du royaume défini."
+  home-teleported: "&aTéléportation vers votre royaume..."
+  fee-set: "&aDroit d'entrée fixé à &e%amount%₩ &a."
+  tax-set: "&aTaux de taxe fixé à &e%rate%% &a."
